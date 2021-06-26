@@ -1,8 +1,8 @@
-#### Creating Django Resuable Package and Deploying Django application on ElasticBeanStack(PAAS) with AWS RDS
+#### Creating Django Resuable Package and Deploy to ElasticBeanStack(PAAS) with AWS RDS
 
 #### install the following Python 3.6 or later, pip, awsebcli
 
-#### install awsebcli
+#### Install awsebcli
     ##### pip install awsebcli --upgrade --user
 
     Add this path to your environmental variables
@@ -10,7 +10,7 @@
     ##### %USERPROFILE%\AppData\Roaming\Python\Scripts
     ##### eb --versions
 
-##### creating a django project in a  virtual environment 
+##### Creating a django project in a  virtual environment 
     ##### python -m venv name-of-project/venv i.e python -m venv ebdjango/venv
     ##### cd name-of-project i.e cd ebdjango
     ##### venv/Scripts/activate (windows)
@@ -23,7 +23,7 @@
     ##### python manage.py startapp name-of-app i.e python manage.py startapp ebtest
 
 
-#### creating a resuable django app
+#### Creating a resuable django app
     #### pip install setuptools --upgrade
     #### create a new folder with django prefix in your parent folder i.e django-name-of-folder(django-ebtest)
     #### copy your application folder() into the new folder
@@ -35,12 +35,12 @@
     #### python -m pip install  django-ebtest/dist/django-ebtest-3.2.1.zip to install 
     #### python -m pip uninstall django-ebtest to uninstall
 
-#### setting AWS RDS
+#### Setting AWS RDS
     #### https://www.youtube.com/watch?v=Ng_zi11N4_c
     #### run python manage.py migrate
 
 
-#### deploying django application to ElasticBeanStack
+#### Deploying django application to ElasticBeanStack
     ##### pip freeze > requirements.txt
     ##### mkdir .ebextensions
     ##### deactivate (to deactivate your virtual environment)

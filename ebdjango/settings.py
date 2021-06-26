@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['django-env.eba-whm3fvm6.us-west-2.elasticbeanstalk.com', "*"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
