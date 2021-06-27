@@ -1,6 +1,6 @@
-## Creating Django Resuable Package and Deploy to ElasticBeanStack(PAAS) with AWS RDS
+##### Creating Django Resuable Package and Deploy to ElasticBeanStack(PAAS) with AWS RDS
 
-## install the following Python 3.6 or later, pip, awsebcli
+##### install the following Python 3.6 or later, pip, awsebcli
 
 ##### Install awsebcli
     ## pip install awsebcli --upgrade --user
