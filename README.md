@@ -22,7 +22,7 @@
     ##### create a .gitignore file
     ##### python manage.py startapp name-of-app i.e python manage.py startapp ebtest
 
-
+  
 #### Creating a resuable django app
     #### pip install setuptools --upgrade
     #### create a new folder with django prefix in your parent folder i.e django-name-of-folder(django-ebtest)
@@ -45,7 +45,11 @@
     ##### mkdir .ebextensions
     ##### deactivate (to deactivate your virtual environment)
     ##### eb init -p python-3.6 django-tutorial
+    #### eb init(select defaults)
     ##### eb create django-env
     ##### add the domain e.g django-env.eba-whm3fvm6.us-west-2.elasticbeanstalk.com to your allowed hosts in settings.py
     ##### eb deploy
     ##### eb open
+
+
+<!-- tw4mNDH0niCEHMFu/CqQHAUqb11D+k4oLojUT4z1 -->

@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'elasticbeanstackdb',
         'USER':'seun',
-        'PASSWORD':'plmokn0908',
+        'PASSWORD':'*********',
         'HOST':'elasticbeanstackdb.c6jmj4optge7.us-east-1.rds.amazonaws.com',
         'PORT':'3306'
     }
